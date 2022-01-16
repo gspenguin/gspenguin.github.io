@@ -6,3 +6,5 @@ layout: default
 # Welcome!
 
 Welcome to my homepage!
+
+[Cookies](/cookies)
