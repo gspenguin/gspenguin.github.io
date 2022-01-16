@@ -9,4 +9,5 @@ Do you want cookies?
 <label for="yes">Yes</label>
 <input type="radio" id="no" value="No" name="cookies">
 <label for="no">No</label>
+<input type="submit">
 </form>
