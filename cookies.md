@@ -9,8 +9,12 @@ Do you want cookies?
 {% for cookie in cookies %}
 <div>
 <label for="{{cookie}}">{{cookie}}</label>
-<input type="number" min="0" id="{{cookie}}" name="{{cookie}}">
+<input type="number" min="0" id="{{cookie}}" name="{{cookie}}" class="cookie">
 </div>
 {% endfor %}
+<div>
+<label for="Total">Total</label>
+<input type="number" min="0" id="Total" name="Total" readonly="true">
+</div>
 <input type="submit">
 </form>
