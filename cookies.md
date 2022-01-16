@@ -5,7 +5,7 @@ layout: default
 
 <form>
 Do you want cookies?
-{% assign cookies = "Thin Mints,Samoas,Adventurefuls,Tagalongs,Trefoils,Do-Si-Dos,Girl Scout Smores,Toffeetastic" | split: "," %}
+{% assign cookies = "Thin Mints,Samoas,Adventurefuls,Tagalongs,Trefoils,Do-Si-Dos,Girl Scout Smores,Toffeetastic,Lemon-ups" | split: "," %}
 {% for cookie in cookies %}
 <label for="{{cookie}}">{{cookie}}</label>
 <input type="num" id="{{cookie}}" name="{{cookie}}">
