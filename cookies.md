@@ -5,9 +5,10 @@ layout: default
 
 <form>
 Do you want cookies?
-<input type="radio" id="yes" value="yes" name="cookies">
-<label for="yes">Yes</label>
-<input type="radio" id="no" value="No" name="cookies">
-<label for="no">No</label>
+{% assign cookies = "Thin Mints,Samoas,Adventurefuls,Tagalongs,Trefoils,Do-Si-Dos,Girl Scout Smores,Toffeetastic" | split ',' %}
+{% for cookie in cookies %}
+<label for="{{cookie}}">{{cookie}}</label>
+<input type="num" id="{{cookie}}" name="{{cookie}}">
+{% endfor %}
 <input type="submit">
 </form>
