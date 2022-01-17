@@ -10,13 +10,18 @@ Do you want cookies?
 <input type="text" id="Name" name="Name" required="required">
 </div>
 <div>
+<label for="Last Name">Your Last Name</label>
+<input type="text" id="Last Name" last name="Last Name" required="required">
+</div>
+<div>
 <label for="Email">Your Email</label>
 <input type="email" id="Email" name="Email" required="required">
 </div>
 <div>
 <label for="Phone">Your Phone</label>
 <input type="tel" id="Phone" name="Phone" required="required">
-</div>
+</div><div>
+
 {% assign cookies = "Thin Mints,Samoas,Adventurefuls,Tagalongs,Trefoils,Do-Si-Dos,Girl Scout Smores,Toffeetastic,Lemon-ups" | split: "," %}
 {% for cookie in cookies %}
 <div>
