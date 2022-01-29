@@ -21,7 +21,7 @@ layout: default
 <div>
 <label for="Phone">Your Phone</label>
 <input type="tel" id="Phone" name="Phone" required="required" />
-</div><div>
+</div>
 
 {% assign cookies = "Thin Mints,Samoas,Adventurefuls,Tagalongs,Trefoils,Do-Si-Dos,Girl Scout Smores,Toffeetastic,Lemon-ups" | split: "," %}
 {% for cookie in cookies %}
