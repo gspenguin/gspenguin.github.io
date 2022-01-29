@@ -3,8 +3,8 @@ title: Home
 layout: default
 ---
 
-# Welcome!
+# Welcome to my homepage!
 
-Welcome to my homepage!
+I created this website with my Dad using VSCode and GitHub sites.
 
 [Cookies](/cookies)
