@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>{{page.title}} | GS Pengiun</title>
         <meta name="viewport" content="width=device-width"/>
         <style>
             body {
-                background-image: linear-gradient(45deg, rgb(0, 247, 255) ,pink);
+                background-image: linear-gradient(315deg, rgb(0, 247, 255) ,pink);
                 color: white;
-                height: 100vh;
                 font-family: Helvetica, sans-serif;
+                margin:0;
             }
             a {
                 text-decoration: none;
                 color: darkviolet
             }
-            a:hover {
+            a:hover, a:active {
                 text-decoration: underline;
             }
             form div {
@@ -24,6 +24,12 @@
                 width: 120px;
                 display: inline-block;
             }
+            header {
+                text-align:center;
+            }
+            img {
+                max-width: 100%;
+            }
             input {
                 color: blueviolet;
                 background-color: white;
@@ -32,16 +38,22 @@
                 padding: 0.6em;
                 font-weight: bold;
             }
-            input:hover {
+            input:hover, input:active {
                 background-color: lavender;
                 border: 1px solid blueviolet;
             }
             main {
                 padding: 5em;
+                min-height: 100vh;
             }
         </style>
     </head>
     <body>
+        <header>
+            <a href="/">
+                <img src="Cookie Zoo.jpg" alt="Cookie Zoo!!" />
+            </a>
+        </header>
         <main>
           {{content}}
         </main>
