@@ -33,5 +33,5 @@ Do you want cookies?
 <label for="Total">Total</label>
 <input type="number" min="0" id="Total" name="Total" readonly="true">
 </div>
-<input type="submit">
+<input type="submit">Order Cookies</input>
 </form>
