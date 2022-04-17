@@ -7,4 +7,6 @@ layout: default
 
 I created this website with my Dad using VSCode and GitHub sites.
 
-[Cookies](/cookies)
+- [Cookies](/cookies)
+
+- [Guess A Cookie](/guess-a-cookie)
