@@ -9,7 +9,7 @@ layout: default
 
 <script>
     // list of cookies
-    const cookies = ['Thin Mints','Samoas','Adventurefuls','Tagalongs','Trefoils','Do-Si-Dos','Girl Scout Smores','Toffeetastic','Lemon-ups'];
+    const cookies = ['Thin Mints','Samoas','Adventurefuls','Tagalongs','Trefoils','Do-Si-Dos','Toast-Yays','Carmel-Chocolate Chip','Lemonades'];
     document.getElementById('guess').innerHTML = '<option value="">Select a Cookie</option>'+cookies.map(c=>`<option>${c}</option>`).join('\n');
 
     // get a random number between 0 and the length of the list of cookies
