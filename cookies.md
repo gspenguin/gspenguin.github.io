@@ -23,7 +23,7 @@ layout: default
 <input type="tel" id="Phone" name="Phone" required="required" />
 </div>
 
-{% assign cookies = "Thin Mints,Samoas,Adventurefuls,Tagalongs,Trefoils,Do-Si-Dos,Girl Scout Smores,Toffeetastic,Lemon-ups" | split: "," %}
+{% assign cookies = "Thin Mints,Carmel Delites,Adventurefuls,Peanut Butter Patties,Trefoils,Peanut Butter Sandwiches,Toast-Yays,Carmel-Choclate Chip,Lemonades" | split: "," %}
 {% for cookie in cookies %}
 <div>
 <label for="{{cookie}}">{{cookie}}</label>
