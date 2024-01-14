@@ -5,7 +5,7 @@ function calculateTotals(){
             const boxes = parseInt(cookie.value, 10);
                 total = boxes * 6 + total;
             }
-        }
+        
     });
     document.getElementById('Total').value = total;
 }
